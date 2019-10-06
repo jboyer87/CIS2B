@@ -1,0 +1,12 @@
+body {
+	color: red;
+}
+
+.intro-text {
+	color: blue;
+}
+
+#copyright {
+	color: orange;
+	text-decoration: underline;
+}
