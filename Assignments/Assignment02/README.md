@@ -1,0 +1,3 @@
+# Assignment #02
+
+This week you will create your first git repository and upload the contents to a git hosting service (GitHub). You will build a basic two-page website with an external stylesheet and demonstrate your ability to use CSS type, class, and id selectors. Throughout the process, you will make changes to your repository using the git command-line tool. Finally, you will validate your HTML and CSS code.

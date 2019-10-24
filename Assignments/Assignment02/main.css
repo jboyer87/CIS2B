@@ -1,0 +1,19 @@
+h1 {
+	text-decoration: underline;
+}
+
+img {
+	border: 2px dashed navy;
+	border-radius: 15px;
+	margin: 2em;
+	max-width: 400px;
+	padding: 2em;
+}
+
+.question {
+	font-weight: bold;
+}
+
+#copyright {
+	font-size: .8em;
+}
