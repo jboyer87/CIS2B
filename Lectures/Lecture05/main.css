@@ -37,6 +37,12 @@ h2 {
 	*/
 }
 
+img {
+	border: 5px solid orange;
+	padding: 1em;
+	margin: 1em;
+}
+
 p {
 	background-color: lightgrey;
 	width: 50%;
@@ -76,4 +82,14 @@ This utility class illustrates this concept */
 
 .content-box {
 	box-sizing: content-box;
+}
+
+/* Utility class used to float elements to the left */
+.float-left {
+	float: left;
+}
+
+/* Utility class used to clear floats (usually applied to a <br> [break] element) */
+.clear {
+	clear: both;
 }
