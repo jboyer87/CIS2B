@@ -58,6 +58,8 @@ b, i {
 	display: inline;
 }
 
+/* Adding margin-auto to an element will center it horizontally. 
+This utility class illustrates this concept */
 .margin-auto {
 	margin: 0 auto;
 	/* This is equivalent to:
