@@ -1,0 +1,77 @@
+
+/* Background color for illustrative purposes only */
+h1, h2, h3 {
+	background-color: lightgrey;
+}
+
+/* Example of using padding to create space between the content and the border */
+h2 {
+	border: 5px dotted purple;
+	/* This is equivalent to:
+	border-color: purple; 
+	border-style: dotted;
+	border-width: 5px;
+	*/
+
+	border-radius: 15px;
+	/* This is equivalent to:
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	*/
+
+	margin: 2em;
+	/* This is equivalent to:
+	margin-top: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	*/
+	padding: 1em;
+	/* This is equivalent to:
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	*/
+}
+
+p {
+	background-color: lightgrey;
+	width: 50%;
+}
+
+b, i {
+	background-color: lightblue;
+}
+
+/* Utility classes */
+
+.block {
+	background-color: lightgrey;
+	display: block;
+}
+
+.inline {
+	background-color: lightblue;
+	display: inline;
+}
+
+.margin-auto {
+	margin: 0 auto;
+	/* This is equivalent to:
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	*/
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+.content-box {
+	box-sizing: content-box;
+}
