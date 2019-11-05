@@ -1,0 +1,65 @@
+/* Built-in Types */
+header {
+	background-color: lightgrey;
+}
+
+main {
+	background-color: lightpink;
+	width: 50%;
+}
+
+/* Custom Classes */
+main, .sidebar, .important-things {
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	background-color: lightgreen;
+	width: 25%;
+}
+
+.important-things {
+	background-color: lightcoral;
+	width: 25%;
+}
+
+/* Utility Classes */
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.clear-right {
+	clear: right;
+}
+
+/* .static { position: static; } */
+
+.relative {
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+.absolute {
+	position: absolute;
+	bottom: 10px;
+}
+
+.fixed {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
