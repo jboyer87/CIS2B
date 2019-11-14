@@ -2,43 +2,68 @@
 	It's a good idea to add your colors/fonts/etc at the top - it makes it easier
 	to see what you were using and you can copy/paste them instead of hunting around
 	for them later.
-	
+
 	primary color: ...
 	accent/secondary color: ...
 	primary variants: ...
 */
+
 body {
 	background: linear-gradient(white, lightgrey);
 	height: 100%;
 }
+
 html {
 	height: 100%;
 }
+
+h1 {
+	/* Example of a gradient background for text in CSS. None of these are optional. Make 
+	sure to include the last 3 rules as written and adjust the first rule using a gradient
+	generation tool (or edit manually) to achieve the desired effect. */
+
+	/* Set the background to linear-gradient as normal */
+	background: linear-gradient(45deg, blue, pink);
+	/* Display inline-block so the color stops are based on the content and not the entire
+	box width */
+	display: inline-block;
+	/* Set the background-clip to text so the gradient does not appear outside of the 
+	text */
+	-webkit-background-clip: text;
+	/* Set the text-fill-color to transparent so the background shows through */
+	-webkit-text-fill-color: transparent;
+}
+
 .rgb {
 	background-color: rgb(30, 30, 0);
 	border: 4px solid rgb(255, 0, 0);
 	color: rgb(255, 0, 0);
 }
+
 .hex {
 	background-color: #aaccff;
 	border: 4px solid #336699;
 	color: #336699;
 }
+
 .hsl {
 	background-color: hsl(270, 80%, 80%);
 	border: 4px solid hsl(0, 100%, 30%);
 	color: hsl(0, 100%, 30%);
 }
+
 .rgba {
 	background-color: rgba(0, 0, 250, .2);
 	border: 4px solid rgba(0, 0, 60, .5);
 	color: rgba(0, 0, 60, .5);
 }
+
 .hexa {
 	background-color: #00FFFF40;
 	border: 4px solid #505050FF;
 	color: #505050FF;
 }
+
 .hsla {
 	background-color: hsla(270, 80%, 80%, .5);
 	border: 4px solid hsla(0, 100%, 60%, 1);
