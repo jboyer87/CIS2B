@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700|Roboto+Condensed:400,700|Roboto+Mono&display=swap');
+/*
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Noto Serif', serif;
+*/
+
+/*
+	Reset Selector - don't remove this!
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+	You can modify everything after this point.
+*/
+
+a:link, a:visited {
+	color: blue;
+}
+
+a:focus, a:hover {
+	background-color: #ddddff;
+	border-radius: 5px;
+	text-decoration: underline;
+	transition-duration: 0.2s;
+	transition-property: background;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-size: 18px;
+	padding-bottom: 2em;
+}
+
+code {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: .05em;
+	margin: 1.5rem auto;
+	text-align: center;	
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 60%;
+}
+
+p {
+	line-height: 140%;
+	margin-bottom: 1em;
+}
+
+#intro {
+	font-size: 22px;
+}
+
+#how-does-it-work, #influence, #joke {
+
+}

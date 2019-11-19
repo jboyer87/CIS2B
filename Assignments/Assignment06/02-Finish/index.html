@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Assignment 06 | CIS2B</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<h1>Evil Bit</h1>
+	</header>
+	<main>
+		<section id="intro">
+			<h2>Introduction</h2>
+			<p>The <b>evil bit</b> is a fictional <a href="https://en.wikipedia.org/wiki/IPv4#Header">IPv4 packet header</a> field proposed in RFC 3514, a humorous April Fools' Day RFC from 2003 authored by Steve Bellovin. The RFC recommended that the last remaining unused bit, the "Reserved Bit" in the IPv4 packet header, be used to indicate whether a packet had been sent with malicious intenet, thus making computer security engineering an easy problem &mdash; simply ignore any messages with the evil bit set and trust the rest.</p>
+		</section>
+		<section id="influence">
+			<h2>Influence</h2>
+			<p>The evil bit has become a synonym for all attempts to seek simple technical solutions for difficult human social problems which require the willing participation of malicious actors, in particular efforts to implement Internet censorship using simple technical solutions.</p>
+			<p>As a joke, <a href="https://en.wikipedia.org/wiki/FreeBSD">FreeBSD</a> implemented this on the same day but removed the changes on the following day. A Linux patch implementing the iptables module "ipt_evil" was posted the next year. Furthermore, a patch for FreeBSD 7 is available and is kept up-to-date.</p>
+			<p>There is extension for <a href="https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">XMPP</a> protocol "XEP-0076: Malicious Stanzas", inspired by evil bit.</p>
+			<p>This RFC has also been quoted in the otherwise completely serious RFC 3675, ".sex Considered Dangerous", which may have caused the proponents of .xxx to wonder whether the <a href="https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force">Internet Engineering Task Force (IETF)</a> was commenting on their application for a top-level domain (TLD) – the document was not related to their application.</p>
+			<p>For April Fool's 2010, Google added an <code>&evil=true</code> parameter to requests through the Ajax APIs.</p>
+		</section>
+		<section id="how-does-it-work">
+			<h2>How does it work?</h2>
+			<p>When using offensive tools or crafting packets with malicious intent. The software or the attacker must set the Evil bit. For example fragments that are dangerous must have the Evil bit set. When executing a port scanning if the intent is malicious the Evil bit should be set. When sending an exploit via Metasploit the Evil bit should be set and the list goes on. On the other hand if the packets don’t have malicious intent the bit should not be set.</p>
+			<h3>How should the security systems process such packets?</h3>
+			<p>When processing packets, devices such as firewall should check the Evil Bit. If it is set they must drop all packets. If the Evil bit if off the packets must not be dropped.</p>
+		</section>
+		<section id="joke">
+			<h2>The Joke</h2>
+			<p>The joke is that it is impossible to come up with a rigorous yes-or-no definition of what constitutes an "evil" packet, which is a necessarily subjective human value judgement. Even if such a definition existed, a host on the other side of an untrusted network could not be trusted to set the bit correctly.</p>
+		</section>
+	</main>
+</body>
+</html>
