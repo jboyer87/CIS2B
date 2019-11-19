@@ -2,9 +2,9 @@
  fonts */
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700|Open+Sans:300,400,400i,700&display=swap');
 
-
-
 /*
+
+Fonts and where they are used
 
 headers
 font-family: 'Open Sans', sans-serif;
@@ -14,19 +14,25 @@ font-family: 'Merriweather', serif;
 
 */
 
+/* Reset selector */
+/* Recommended when you are working with typography to give you more control */
 * {
 	margin: 0;
 	padding: 0;
 }
 
+/* Always set a base font-size! */
 body {
 	font-family: 'Merriweather', serif;
+	font-size: 16px;
 }
 
 p {
-	line-height: 145%;
-	margin: 0 auto;
-	width: 35em;
+	line-height: 145%; /* Line height should be somewhere around 120-145% */
+	margin: 0 auto; /* 0/auto centers the paragraphs */
+	width: 35em; /* 35em is roughly equivalent to 70 characters in most fonts. We should
+					have around 70-80 per line. We can adjust the width of the box to 
+					achieve this. */
 }
 
 header {
@@ -35,26 +41,34 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;
-	letter-spacing: .2em;
-	margin-bottom: 1em;
+	letter-spacing: .2em; /* Letter spacing can be adjusted manually to stretch/smush text */
+	margin-bottom: 1em; /* Margin should be added to all text elements - not just paragraphs */
 }
 
 section {
-	margin-bottom: 3em;
+	margin-bottom: 3em; /* Adding some spacing to the sections just to split them up visually */
 }
 
+/*	Margins and indents - we use one or the other and NEVER both! Both are used in the 
+	example for illustrative purposes only. Choose one and be consistent across your pages */
+
+/* Margins */
 section.margins p {
-	margin-bottom: 1em;
+	margin-bottom: 1em; /* Using margins to set my paragraphs apart */
 }
 
+/* Indents (use both of the following rules */
 section.indents p {
-	text-indent: 4em;
+	text-indent: 4em; /* Using indents to set my paragraphs apart */
 }
 
 section.indents p:first-of-type {
-	text-indent: 0;
+	text-indent: 0; /* Removing the indent on the first paragraph of the section with the 
+					   "indents" class */
 }
 
+/*	Adjusting font-weight. This will work only if the font-face was added to your 
+	customized Google Font import statement */
 .light {
 	font-weight: 300;
 }
