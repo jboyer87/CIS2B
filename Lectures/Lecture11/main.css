@@ -1,0 +1,60 @@
+/* We imported the weights we were planning on using so that we don't have any synthesized
+ fonts */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700|Open+Sans:300,400,400i,700&display=swap');
+
+
+
+/*
+
+headers
+font-family: 'Open Sans', sans-serif;
+
+body text
+font-family: 'Merriweather', serif;
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+}
+
+p {
+	line-height: 145%;
+	margin: 0 auto;
+	width: 35em;
+}
+
+header {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .2em;
+	margin-bottom: 1em;
+}
+
+section {
+	margin-bottom: 3em;
+}
+
+section.margins p {
+	margin-bottom: 1em;
+}
+
+section.indents p {
+	text-indent: 4em;
+}
+
+section.indents p:first-of-type {
+	text-indent: 0;
+}
+
+.light {
+	font-weight: 300;
+}
