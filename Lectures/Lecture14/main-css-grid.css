@@ -1,0 +1,29 @@
+header {
+	background-color: pink;
+	color: green;
+}
+
+main {
+	background-color: darkseagreen;
+	color: black;
+
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	column-gap: 2em;
+}
+
+footer {
+	background-color: purple;
+	color: white;
+}
+
+header, footer, main {
+	padding: .5em;
+}
+
+#main-container {
+	display: grid;
+	grid-template-rows: 125px auto 125px; /* header is 250px, main is auto, footer is 250px */
+	column-gap: 2em;
+	row-gap: 2em;
+}
