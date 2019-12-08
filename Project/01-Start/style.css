@@ -1,0 +1,19 @@
+.page-wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr); 
+}
+
+.intro {
+	grid-column-start: 1; 
+	grid-column-end: 13; 
+}
+
+.main {
+	grid-column-start: 1; 
+	grid-column-end: 10; 
+}
+
+.sidebar {
+	grid-column-start: 10; 
+	grid-column-end: 13; 
+}
